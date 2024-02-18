@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<p>This assesment is completed by ayesha tazeen</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Orders Management System
 
-## Available Scripts
+## Overview
+This project is an Orders Management System designed to help users manage their orders efficiently. It includes a dashboard to view and manipulate orders, along with a navigation bar for easy navigation and filtering options.
 
-In the project directory, you can run:
+## Features
+- **Dashboard:** Displays a summary of orders with options to filter and manipulate data.
+- **Responsive Design:** The application is responsive, adapting to different screen sizes for a better user experience.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Form Feature
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Orders Management System includes a form feature accessible through the "CREATE NEW" button. This feature allows users to add new orders dynamically to the system.
 
-### `npm test`
+### How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Click on the "CREATE NEW" button located in the top right corner of the application.
+2. A form will pop up with input fields for various order details, such as ID, Shipify#, Date, Status, Customer, Email, Country, Shipping, Source, and Order Type.
+3. Fill in the required information in the form fields.
+4. Upon submission of the form, the new order data will be added to the existing orders and displayed in the table on the dashboard.
+5. Users can continue to use the form feature to add additional orders as needed.
 
-### `npm run build`
+### Notes
+- The form feature ensures easy data entry and seamless integration of new orders into the existing order management system.
+- Input validation and error handling may be implemented to enhance the user experience and maintain data integrity.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+- React.js
+- Tailwind CSS
+- Material-UI Icons
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
+5. Access the application in your web browser at `http://localhost:3000`.
 
-### `npm run eject`
+## Project Structure
+The project is organized into several components:
+- **Base:** The main component that serves as the entry point for the application.
+- **Table:** Displays order data in a tabular format.
+- **SampleData:** Contains sample data for initial display.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributors
+- Ayesha
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT License](LICENSE).
